@@ -1,0 +1,75 @@
+/* @font-face {
+    font-family: "myFont";
+    src: url("./fonts/SquadaOne-Regular.ttf");
+
+} */
+
+body {
+    background-image: url("./img/programming.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+.wa {
+    display: flex;
+    position: relative;
+    text-align: center;
+    top: 30%;
+    left: 10%;
+}
+
+.kodinav {
+    position: relative;
+    display: flex;
+    
+}
+
+.navTitle {
+    color: white;
+    font-size: 23px;
+}
+
+.members {
+    font-size: 20px;
+    color: rgb(233, 225, 225);
+    line-height: 50px;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 82%;
+
+}
+.github {
+    font-size: 20px;
+    color: rgb(233, 225, 225);
+    line-height: 50px;
+    height: 50px;
+
+}
+
+.wall {
+    position: relative;
+    text-align: center;
+    padding-right: 200px;
+
+    height: 500px;
+}
+
+.title {
+    font-size: 60px;
+    
+}
+.sub-title {
+    font-size: 20px;
+}
+
+.about {
+    display: flex;
+}
+
+.ab {
+    font-size: 40px;
+}
+
+.info {
+    font-size: 20;
+}
