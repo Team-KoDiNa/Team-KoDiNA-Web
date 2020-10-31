@@ -5,18 +5,25 @@
 } */
 
 body {
-    background-image: url("./img/programming.jpg");
+    /* background-image: url("../img/programming.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: white;
+    /* color: white; */
     margin: 0;
     padding: 0;
 }
 
-.wa {
-    display: flex;
-    position: relative;
-    text-align: center;
-    top: 30%;
-    left: 10%;
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/programming.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(30%);
 }
+
 
 .kodinav {
     position: relative;
@@ -49,18 +56,20 @@ body {
 .wall {
     position: relative;
     text-align: center;
-    padding-right: 200px;
-
-    height: 500px;
-}
+    left: 50%;
+    transform: translate(-50%);
+    top: 20%;
+} 
 
 .title {
-    font-size: 60px;
+    font-size: 90px;
+    color: white;
     
-}
+} 
 .sub-title {
-    font-size: 20px;
-}
+    font-size: 30px;
+    color: white;
+} 
 
 .about {
     display: flex;
@@ -68,8 +77,31 @@ body {
 
 .ab {
     font-size: 40px;
+    color: white;
 }
 
 .info {
     font-size: 20;
+    color: white;
+}
+
+.sans {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    
+    top:20%;
+}
+
+.discord {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    top: 50%;
+    width: 150px;
+    height: 50px;
+
+    
 }
